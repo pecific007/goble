@@ -13,10 +13,10 @@ Usage of ./goble:
 
 ``` sh
 $ ./goble -c
-Connected and trusted: 99:AA:BB:CC:DD:FF:GG
+Connected and trusted: 99:AA:BB:CC:DD:FF
 ```
 
 ```sh
 $ ./goble -d
-Disconnected and untrusted: 99:AA:BB:CC:DD:FF:GG
+Disconnected and untrusted: 99:AA:BB:CC:DD:FF
 ```
