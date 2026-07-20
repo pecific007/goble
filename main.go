@@ -6,8 +6,6 @@ import (
 	"os"
 	"os/exec"
 	"strings"
-
-	"github.com/joho/godotenv"
 )
 
 func main() {
@@ -19,12 +17,6 @@ func main() {
 
 	if len(os.Args) == 1 {
 		flag.Usage()
-		os.Exit(1)
-	}
-
-	err := godotenv.Load(".env")
-	if err != nil {
-		fmt.Fprintf(os.Stderr, "Error loaindg .env file: %v", err)
 		os.Exit(1)
 	}
 
