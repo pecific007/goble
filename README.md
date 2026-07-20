@@ -13,22 +13,18 @@ Usage of ./goble:
 
 ``` sh
 $ ./goble -c
-Attempting to connect to 8C:D3:D9:F7:62:D0
-Connection successful
-[CHG] Device 8C:D3:D9:F7:62:D0 Trusted: yes
-Changing 8C:D3:D9:F7:62:D0 trust succeeded
-Connected and trusted: 8C:D3:D9:F7:62:D0%
+Connected and trusted: AA:BB:CC:DD:FF:GG%
 ```
 
 ```sh
-$ go build && ./goble -d
-Attempting to disconnect from 8C:D3:D9:F7:62:D0
-[CHG] Device 8C:D3:D9:F7:62:D0 ServicesResolved: no
+$ ./goble -d
+Attempting to disconnect from AA:BB:CC:DD:FF:GG
+[CHG] Device AA:BB:CC:DD:FF:GG ServicesResolved: no
 [SIGNAL] BREDR.Disconnected - org.bluez.Reason.Remote, Connection terminated by remote user
 [SIGNAL] Disconnected - org.bluez.Reason.Remote, Connection terminated by remote user
-[CHG] Device 8C:D3:D9:F7:62:D0 Connected: no
+[CHG] Device AA:BB:CC:DD:FF:GG Connected: no
 Disconnection successful
-[CHG] Device 8C:D3:D9:F7:62:D0 Trusted: no
-Changing 8C:D3:D9:F7:62:D0 untrust succeeded
-Disconnected and untrusted: 8C:D3:D9:F7:62:D0%
+[CHG] Device AA:BB:CC:DD:FF:GG Trusted: no
+Changing AA:BB:CC:DD:FF:GG untrust succeeded
+Disconnected and untrusted: AA:BB:CC:DD:FF:GG%
 ```
