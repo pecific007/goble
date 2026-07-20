@@ -32,5 +32,3 @@ Disconnection successful
 Changing 8C:D3:D9:F7:62:D0 untrust succeeded
 Disconnected and untrusted: 8C:D3:D9:F7:62:D0%
 ```
-```
-```
