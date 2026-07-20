@@ -13,18 +13,10 @@ Usage of ./goble:
 
 ``` sh
 $ ./goble -c
-Connected and trusted: AA:BB:CC:DD:FF:GG%
+Connected and trusted: 99:AA:BB:CC:DD:FF:GG
 ```
 
 ```sh
 $ ./goble -d
-Attempting to disconnect from AA:BB:CC:DD:FF:GG
-[CHG] Device AA:BB:CC:DD:FF:GG ServicesResolved: no
-[SIGNAL] BREDR.Disconnected - org.bluez.Reason.Remote, Connection terminated by remote user
-[SIGNAL] Disconnected - org.bluez.Reason.Remote, Connection terminated by remote user
-[CHG] Device AA:BB:CC:DD:FF:GG Connected: no
-Disconnection successful
-[CHG] Device AA:BB:CC:DD:FF:GG Trusted: no
-Changing AA:BB:CC:DD:FF:GG untrust succeeded
-Disconnected and untrusted: AA:BB:CC:DD:FF:GG%
+Disconnected and untrusted: 99:AA:BB:CC:DD:FF:GG
 ```
